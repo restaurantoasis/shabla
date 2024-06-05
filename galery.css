@@ -1,0 +1,103 @@
+body
+{ background-color: rgb(128, 71, 13);
+  
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        font-size: large;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+header {
+    background-color: #553009;
+    color: white;
+    padding: 1em 0;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.logo img {
+    max-height: 70px; /* Ограничаваме височината на логото */
+    margin-left: 30px; /* Добавяме разстояние от ляво */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px; 
+   
+}
+
+nav ul li a:hover {
+    color: #c2610c; /* Промяна на текста при задържане на мишката */
+}
+
+
+.gallery {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+}
+
+.slides {
+    
+    width: 100%;
+    
+}
+
+footer{
+    background-color: #553009;
+    color: white;
+    
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-text {
+    max-width: 50%;
+    text-align: center;
+}
+
+.footer-text p {
+    margin: 0;
+    line-height: 1.5;
+}
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icons a img {
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%);
+}
